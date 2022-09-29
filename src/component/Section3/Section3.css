@@ -1,0 +1,30 @@
+@import "~slick-carousel/slick/slick.css"; 
+@import "~slick-carousel/slick/slick-theme.css";
+
+.feature{
+    color: #305534;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 20px;
+}
+
+.picss {
+    width: 100%;
+    
+    
+}
+.picss img{
+    width: 70%;
+    margin: 4rem;
+    
+}
+
+.heading {
+    position: absolute;
+    margin-bottom: 10rem;
+}
+
+.parasec {
+    font-size: 2rem;
+
+}

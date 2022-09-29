@@ -1,0 +1,98 @@
+.imgcont {
+    background-image: url('../../assets/icons/xh2_hero1.jpg.pagespeed.ic.iz9mDh-lRt\ \(1\).jpg');
+    width: 100%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    margin-top: 2rem;
+}
+.US {
+    color: white;
+    text-align: center;
+    padding-top: 7rem;
+    font-size: 1.5rem;
+
+}
+.form5 {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+    background-color: gray;
+    padding: 1rem;
+        
+
+}
+.form5 h1 {
+    color: green;
+    margin: 1rem;
+    
+    
+}
+.form6 {
+    margin-top: 1.5rem;
+    width: 150%;
+    
+    
+}
+.area textarea {
+    
+    height: 30vh;
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+}
+.name input {
+    width: 100%;
+
+    padding: 1rem;
+    margin: 1rem;
+}
+.subject input{
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+}
+.Send button{
+    width: 30%;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1rem;
+} 
+.Send :hover {
+    color: white;
+    background-color: green;
+    border: 0px solid black;
+}
+.outline {
+ margin-top: 5rem;
+ width: 35%;
+ height: 50vh;
+ /* margin-right: 2rem; */
+ padding: 1.5rem;
+ line-height: 2rem;
+ background-color: whitesmoke;
+  
+}
+.line {
+    font-size: 2.5rem;
+    color: gray;
+    
+}
+.ai {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 1rem;
+    text-align: right;
+}
+.cali {
+    margin-left: 2rem;
+}
+
+.cali h4 {
+    color: gray;
+
+}
+.cali h3 {
+    color: black;
+    font-size: 1.5rem;
+}

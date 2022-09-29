@@ -1,0 +1,15 @@
+.image-2{
+    background-image: url('../../../assets/img/xh2_hero1.jpg.pagespeed.ic.iz9mDh-lRt.jpg');
+    width: 100%;
+    height: 40vh;
+    background-repeat: no-repeat;
+    padding-top: 4rem;
+    /* background-size: 150%; */
+        
+}
+.services-our h1{
+    color: white;
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 3rem;
+}

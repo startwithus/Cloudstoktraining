@@ -1,0 +1,85 @@
+.section {
+    background-color: #305534;
+    padding: 6rem;
+    width: 100%;
+    /* height: 124vh; */
+    display:  flex;
+    /* justify-content: space-between; */
+    
+    
+}
+
+.since {
+    color: white;
+    font-size: 1.5rem;
+    width: 50%;
+    margin-top: 2rem;
+    
+    
+}
+
+.lorem {
+    /* width: 45%; */
+    color: #C9D6CB;
+    word-spacing: 0.3rem;
+    padding-top: 2rem;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.pic{
+    padding-top: 3rem;
+    width: 30rem;
+    height: 30rem;
+   
+    
+    
+}
+.missioncard {
+    width: 50%;
+    
+}
+.mission{
+    color: white;
+    width: 100%;
+    font-size: 1rem;
+    
+}
+.mission1 {
+    color: white;
+    margin-top: 3rem;
+
+}
+
+.lorem1{
+    color: #C9D6CB;
+    font-size: 1rem;
+    word-spacing: 0.5rem;
+    margin-top: 1rem;
+    
+    
+}
+.button2 button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 40px;
+    margin-top: 4rem;
+    width: 40%;
+}
+.pic-1 img{
+    height: 30vh;
+    margin-top: 5rem;
+
+
+    
+    
+
+
+}

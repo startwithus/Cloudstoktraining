@@ -1,0 +1,46 @@
+.outerbox {
+    background-color: #EFF6F0;
+}
+.card {
+    display: flex;
+    justify-content: space-between;
+    /* padding: 5rem; */
+    text-align: center;
+    width: 100%;
+    padding: 5rem;
+    box-shadow: 2px solid black;
+   
+    
+    
+    
+}
+.box{
+    background: white;
+    width: 15%;
+    height: 25vh;
+   padding-top: 2rem;
+  
+   cursor: pointer;
+   
+   
+}
+.box:hover{
+    opacity: 0.5;
+    
+}
+.head h1{
+    color: green;
+    font-size: 1.5rem;
+    
+    
+}
+.para {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+    color: #305534;
+
+}
+.free {
+    color: #00880F;
+}

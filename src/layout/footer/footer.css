@@ -1,0 +1,100 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+    width: 100%;
+    background-color: #F8F8F8;
+    
+}
+.logo9 img {
+    /* width: 20%; */
+    /* height: 6vh; */
+}
+
+
+
+
+.space {
+    margin-top: 1rem;
+    color: #305534;
+    width: 40%;
+    word-spacing: 0.3rem;
+    font-size: 1.4rem;
+}
+
+.iconss {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    /* align-items: center; */
+    font-size: 1.3rem;
+    text-align: center;
+    
+
+
+
+    
+    
+}
+.iconss :hover {
+    cursor: pointer;
+    background-color: #00880F;
+    color: white;
+}
+.facebook {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid green;
+    margin-bottom: 2rem;
+    padding-top: 0.5rem;
+
+    
+}
+
+.services1 {
+    width: 30%;
+    color: #305534;
+    
+}
+.services1 ul li{
+    color: #305534;
+    margin: 1rem;
+    font-size: 1.2rem;
+    list-style: none;
+    
+}
+
+.Navigation {
+    width: 30%;
+    color: #305534;
+}
+.Navigation ul li {
+    color: #305534;
+    margin: 1rem;
+    font-size: 1.2rem;
+    list-style: none;
+}
+.us {
+    width: 30%;
+    color: #305534;
+}
+.us ul li {
+    color: #00880F;
+    margin: 1rem;
+    font-size: 1.3rem;
+    list-style: none;
+
+
+}
+
+.copyright {
+text-align: center;
+font-size: 1.3rem;
+}
+.last img{
+    width: 100%;
+    height: 20vh;
+list-style: none;
+    
+}

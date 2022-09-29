@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    margin-right: 2rem;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+
+    
+}
+
+.logo {
+padding-left: 4rem;
+width: 25%;
+
+}
+.link a{
+    padding: 2rem;
+    color: black;
+    font-family: bold;
+    align-content: center;
+    width: 18%;
+    margin-top: 2rem;
+    font-size: 18px;
+    text-decoration: none;
+
+    
+}
+.button button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 40px;
+    cursor: pointer;
+
+}

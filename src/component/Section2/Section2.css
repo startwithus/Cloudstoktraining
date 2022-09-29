@@ -1,0 +1,17 @@
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+
+}
+.icon1 h1 {
+    color: #305534;
+    font-size: 25px;
+    margin-top: 1.3rem;
+}
+.icon1 p {
+    color: #6F8873;
+    font-size: 16px;
+    line-height: 1.5rem;
+    margin-top: 1.3rem;
+}

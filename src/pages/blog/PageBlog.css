@@ -1,0 +1,13 @@
+.blogpic {
+    background-image: url('../../assets/img/xh2_hero3.jpg.pagespeed.ic.YAWeClKPpn.jpg');
+    height: 40vh;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.blogpic h1 {
+    color: white;
+    text-align: center;
+    padding-top: 7rem;
+    letter-spacing: 0.3rem;
+    font-size: 3rem;
+}

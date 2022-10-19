@@ -56,6 +56,7 @@
     margin: 1rem;
     padding: 1rem;
     font-size: 1rem;
+    cursor: pointer;
 } 
 .Send :hover {
     color: white;

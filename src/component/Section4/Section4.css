@@ -68,20 +68,29 @@
   border-radius: 40px;
   margin: 1rem;
   padding: 0.5em;
-  width: 150%;
+  width: 120%;
   font-size: 20px;
   color: #66816a;
 }
-.request h1 {
-  color: white;
+.request  {
+  /* color: white; */
   background-color: #00880f;
-  width: 128%;
-  height: 7.3vh;
+  width: 150%;
+  height: 7vh;
   font-size: 20px;
   text-align: center;
   padding: 1rem;
-  margin-top: 0.3em;
+  margin-top: 4rem;
+  cursor: pointer;
   /* margin-right: 3rem; */
+}
+.submit {
+  color: white;
+  background-color: #00880f;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+ 
 }
 .message {
   height: 8rem;

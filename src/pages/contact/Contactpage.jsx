@@ -5,8 +5,25 @@ import {AiOutlineHome} from 'react-icons/ai'
 import {FaTabletAlt} from 'react-icons/fa'
 import {AiOutlineMail} from 'react-icons/ai'
 import { Flip, Rotate } from 'react-reveal'
+import { useState } from 'react'
 
 const Contactpage = () => {
+
+  const [user,setUser]  = useState({
+    message:"",
+    username:"",
+    subject:"",
+   })
+  const handleInput=(e)=>{
+   const {name,value} = e.target
+   setUser({...user,[name]:value})
+  }
+  const handleSubmit=  async (e)=>{
+   e.preventDefault()
+   console.log(user)
+   // const res = await fetch('',user)
+  }
+
   return (
     <>
     <div className='imgcont'>
@@ -28,18 +45,20 @@ const Contactpage = () => {
 
         <div className='form6'>
         <Flip left>
+
+        <form onSubmit={ (e)=> handleSubmit(e) }>
         
         <div className='area'> 
 
-        <textarea type="text" placeholder='Enter message' />
+        <textarea type="text" name='message' value={user.message} placeholder='Enter message' onChange={(e)=> handleInput(e) }  />
         </div>
         <div className='name'>
-        <input type="text" placeholder='Enter your name' />
-        <input type="text" placeholder='Email' />
+        <input type="text" name='username' value={user.username} placeholder='Enter your name' onChange={(e)=> handleInput(e) } />
+        <input type="text" name='username' value={user.username} placeholder='Email' onChange={(e)=> handleInput(e) } />
         </div>
 
         <div className='subject'>
-        <input type="text" placeholder='Enter Subject' />
+        <input type="text" name='subject' value={user.subject} placeholder='Enter Subject' onChange={(e)=> handleInput(e) } />
 
 
         <div className='Send'>
@@ -47,6 +66,7 @@ const Contactpage = () => {
         <button type='text'>Send</button> 
         </div>
         </div>
+        </form>
         </Flip>
 
         </div>
